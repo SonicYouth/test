@@ -1,5 +1,4 @@
 <?php
-$files1 = scandir(".");
-
-print_r($files1);
+$homepage = file_get_contents('index.php');
+echo $homepage;
 ?>
